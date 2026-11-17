@@ -54,20 +54,19 @@ BigData-Sales-Analytics/
 
 Completed educational project demonstrating a Big Data sales analytics pipeline using PySpark and Hadoop HDFS.
 
+
 ## Big Data Architecture
 
 ```mermaid
 flowchart TD
-    A["Sales Dataset (CSV)"] --> B["Hadoop HDFS"]
-    B --> C["Apache Spark (PySpark)"]
-    C --> D["Data Cleaning"]
-    D --> E["Data Transformation"]
-    E --> F["Sales Analysis"]
-    F --> G["Parquet Storage on HDFS"]
-    G --> H["Matplotlib Visualization"]
+    A[Sales Dataset CSV] --> B[Hadoop HDFS]
+    B --> C[Apache Spark PySpark]
+    C --> D[Data Cleaning]
+    D --> E[Data Transformation]
+    E --> F[Sales Analysis]
+    F --> G[Parquet Storage on HDFS]
+    G --> H[Matplotlib Visualization]
 ```
-
-
 ## Author
 
 **Hiba Mrabet**
